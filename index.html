@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+	<script>
+		// JavaScript for smooth scrolling behavior
+		document.addEventListener('DOMContentLoaded', function () {
+			const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
+
+			smoothScrollLinks.forEach(link => {
+				link.addEventListener('click', function (e) {
+					e.preventDefault();
+
+					const targetId = this.getAttribute('href').substring(1);
+					const targetElement = document.getElementById(targetId);
+
+					if (targetElement) {
+						const offsetTop = targetElement.offsetTop;
+						window.scrollTo({
+							top: offsetTop,
+							behavior: 'smooth'
+						});
+					}
+				});
+			});
+		});
+	</script>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+	<title>Zeffo Parking Services | Dubai</title>
+	<link rel="icon" type="image/x-icon" href="demos/car/images/3.png">
+	<!-- Stylesheets
+	============================================= -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Mukta+Vaani:300,400,500,600,700|Open+Sans:300,400,600,700,800,900&display=swap"
+		rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+
+	<!-- Bootstrap Select CSS -->
+	<link rel="stylesheet" href="css/components/bs-select.css" type="text/css" />
+
+	<!-- car Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/car/car.css" type="text/css" />
+	<link rel="stylesheet" href="demos/car/css/car-icons/style.css" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="demos/car/css/fonts.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/colors.php?color=c85e51" type="text/css" />
+
+	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
+
+	<!-- Document Title
+	============================================= -->
+
+
+	<style>
+		/* Revolution Slider */
+		.ares .tp-tab {
+			border: 1px solid #eee;
+		}
+
+		.ares .tp-tab-content {
+			margin-top: -4px;
+		}
+
+		.ares .tp-tab-content {
+			padding: 15px 15px 15px 110px;
+		}
+
+		.ares .tp-tab-image {
+			width: 80px;
+			height: 80px;
+		}
+
+		.about-us p,
+		.about-us h2 {
+			position: relative;
+			animation: myfirst 5s 2;
+		}
+
+		@keyframes myfirst {
+			0% {
+				color: white;
+				left: -100px;
+				top: 0px;
+				opacity: 0;
+			}
+
+			100% {
+				color: white;
+				left: 0px;
+				top: 0px;
+				opacity: 0.9;
+			}
+		}
+
+		.our-service-container a {
+			box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+
+		.our-service-container .text-overlay-mask {
+			top: 0;
+			height: 100%;
+			background: #000000bb;
+		}
+
+		.our-service-container .portfolio-desc {
+			height: 100%;
+			display: flex;
+			justify-content: start;
+			flex-direction: column;
+		}
+
+		.overlay-custom {
+			position: relative;
+		}
+
+		.overlay-custom:after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: #000000bb;
+			height: 100%;
+			width: 100%;
+			z-index: 2;
+		}
+
+		.our-service-container {
+			gap: 30px;
+		}
+
+		.widget_links li a {
+			color: #fff !important;
+		}
+
+		@media only screen and (max-width: 767.98px) {
+			.about-us {
+				height: 100% !important;
+				background-repeat: no-repeat !important;
+				background-size: cover !important;
+			}
+
+			.our-service-container a {
+				height: 300px !important;
+			}
+
+			.our-service-container {
+				height: 100% !important;
+			}
+
+			.car-360 h3,
+			.car-360 span {
+				color: #000 !important;
+			}
+
+		}
+	</style>
+
+</head>
+
+<body class="stretched side-push-panel"
+	data-loader-html="<div><img src='demos/car/images/page-loader.gif' alt='Loader'></div>">
+
+	<!-- Side Panel Overlay -->
+	<div class="body-overlay"></div>
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header header-size-custom" data-sticky-shrink="false">
+			<div id="header-wrap">
+				<div class="container-fluid">
+					<div class="header-row flex-lg-row-reverse">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo" class="mr-lg-0 ml-lg-auto">
+							<a href="" class="standard-logo justify-content-center"><img
+									style="height: 70px; width: 180px;" src="demos/car/images/2.png"
+									alt="Canvas Logo"></a>
+							<a href="#" class="retina-logo"><img src="demos/car/images/2.png" alt="zeffo Logo"></a>
+						</div><!-- #logo end -->
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100">
+								<path
+									d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20">
+								</path>
+								<path d="m 30,50 h 40"></path>
+								<path
+									d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20">
+								</path>
+							</svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu with-arrows">
+							<ul class="menu-container">
+								<li class="menu-item current"><a class="menu-link" href="">
+										<div>Home</div>
+									</a></li>
+
+								<li class="menu-item"><a class="menu-link" href="#section1">
+										<div>Services</div>
+									</a></li>
+								<li class="menu-item"><a class="menu-link" href="#section2">
+										<div>About Us</div>
+									</a></li>
+								<li class="menu-item"><a class="menu-link" href="#section3">
+										<div>Contact Us</div>
+									</a></li>
+
+							</ul>
+						</nav><!-- #primary-menu end -->
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone" style="height: 70px;"></div>
+		</header><!-- #header end -->
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element swiper_wrapper min-vh-60 min-vh-md-100" data-dots="true"
+			data-loop="true" data-grab="false">
+
+			<div class="swiper-container swiper-parent">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide dark">
+						<div class="container">
+							<div class="slider-caption top-left">
+								<div>
+									<h2 class="font-primary nott">WELCOME TO</h2>
+									<p class="font-weight-light font-primary mt-0">ZEFO DRIVER VALET
+										PARKING
+										SERVICE
+									</p>
+									<a href="tel:+971528586913"
+										class="button button-rounded button-border button-white button-light nott">Call
+										Now</a>
+
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide-bg" style="background-image: url('demos/car/images/new-banner.png');">
+						</div>
+					</div>
+					<div class="swiper-slide dark">
+						<div class="container">
+							<div class="slider-caption">
+								<div>
+									<h2 class="font-primary nott">Drive With</h2>
+									<p class="font-weight-light font-primary mt-0">Zeffo Driver Velet
+										Parking Service</p>
+									<a href="tel:+971528586913"
+										class="button button-rounded button-border button-white button-light nott">Call
+										Now</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide-bg"
+							style="background-image: url('demos/car/images/hero-slider/2.jpg');"></div>
+					</div>
+					<div class="swiper-slide dark">
+						<div class="container">
+							<div class="slider-caption slider-caption-center">
+								<div>
+									<h2 class="font-primary nott">Perfect Save Drive with </h2>
+									<p class="font-weight-light font-primary mt-0">Zeffo Driver Velet
+										Parking Service</p>
+									<a href="tel:+971528586913"
+										class="button button-rounded button-border button-white button-light nott">Call
+										Now </a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide-bg"
+							style="background-image: url('demos/car/images/hero-slider/3.jpg');"></div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+
+		</section><!-- #Slider End -->
+
+
+		<!-- Content
+		============================================= -->
+		<section id="content" class="clearfix">
+			<div class="content-wrap pb-0" style="padding-top: 1px">
+
+				<!-- Masonry Thums
+				============================================= -->
+				<div>
+					<h3 style="text-align: center; padding: 20px 0px; font-size: 64px;
+				line-height: 56px; margin:0px; ">Our Services</h3>
+					<div class="">
+						<div class="row m-0 my-5 dark our-service-container d-flex justify-content-center"
+							data-height-xs="500" data-height-sm="500" data-height-md="350" data-height-lg="350"
+							data-height-xl="350">
+							<a href="#" class="col-md-3 image_fade border-right"
+								style="background: url('demos/car/images/service2.png') no-repeat center center / cover;">
+								<div class="bg-overlay">
+									<div
+										class="bg-overlay-content text-overlay-mask dark align-items-end justify-content-start">
+										<div class="portfolio-desc py-0">
+											<h3>Event Valet Parking</h3>
+											<p>Your guests will remember your event if you use our event valet parking
+												services. From corporate events to weddings, we guarantee a seamless and
+												advanced Driving experience.</p>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="col-md-3 image_fade p-0 border-right"
+								style="background: url('demos/car/images/service3.png') no-repeat center center / cover;">
+								<div class="bg-overlay">
+									<div
+										class="bg-overlay-content text-overlay-mask dark align-items-end justify-content-start">
+										<div class="portfolio-desc py-0">
+											<h3>Business Valet Solutions</h3>
+											<p>With our customised valet services, you can raise the standard of
+												professionalism in your company. Zeffo assists you in giving your
+												customers
+												and guests a great first impression.
+											</p>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="col-md-3 image_fade p-0"
+								style="background: url('demos/car/images/service4.png') no-repeat center center / cover;">
+								<div class="bg-overlay">
+									<div
+										class="bg-overlay-content text-overlay-mask dark align-items-end justify-content-start">
+										<div class="portfolio-desc py-0">
+											<h3>Residential Valet</h3>
+											<p>Utilise our residential valet services to streamline your daily routine.
+												Savour the convenience of having a professional valet team take care of
+												your
+												parking needs.
+											</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Moving car on scroll
+				============================================= -->
+				<div id="section1" class="section mt-0 clearfix" style="padding: 100px 0">
+					<div class="running-car mt-6">
+						<img class="car" src="demos/car/images/moving-car/car.jpg" alt="Image">
+						<img class="wheel" src="demos/car/images/moving-car/car-tier.png" alt="Image">
+					</div>
+					<div class="container clearfix">
+						<div class="row clearfix" style="position: relative;">
+							<div class="col-lg-6 offset-lg-6">
+								<div class="heading-block hlarge">
+									<h3>Our Fleet<br>Your Fleet</h3>
+								</div>
+								<p>Discover Zeffo Valet Parking Service's world of easy parking. Get in touch with us
+									right now to improve your parking experience.
+
+								</p>
+							</div>
+						</div>
+					</div>
+				</div> <!-- Moving car on scroll End -->
+
+				<!-- Features Section
+				============================================= -->
+				<div class="container clearfix">
+
+					<div class="row clearfix topmargin bottommargin">
+
+						<div class="col-lg-4 col-md-6 topmargin bottommargin-sm">
+
+							<div class="heading-block border-bottom-0">
+								<h2 class="nott ls0" style="font-size: 44px; line-height: 1.2">Why Choose Zeffo
+								</h2>
+							</div>
+							<span style="color: #BBB;">As the best option for parking solutions, Zeffo Parking Services
+								stands apart. Modern facilities that are tailored to meet a variety of parking demands
+								demonstrate our commitment to excellence. We provide unparalleled convenience,
+								effectiveness, and safety with a focus on client pleasure. Zeffo Parking Services offers
+								both short- and long-term parking, and with cutting-edge technology, strict security
+								measures, and a dedicated staff that takes the highest care of each and every car, they
+								guarantee a flawless experience.</span>
+							<div class="clear"></div>
+							<a href="tel:+971528586913"
+								class="button button-rounded button-black button-dark ml-0 topmargin-sm clearfix">Contact
+								Now</a>
+
+						</div>
+
+						<div class="col-lg-4 d-md-none d-lg-block center">
+							<img src="demos/car/images/features/bg1.png" alt="Car">
+						</div>
+
+						<div class="col-lg-4 col-md-6 topmargin bottommargin-sm">
+							<div class="feature-box fbox-plain topmargin">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-chart-line"></i></a>
+								</div>
+								<div class="fbox-content">
+									<h3>Efficiency</h3>
+									<p>The goal of Zeffo Valet Parking Service is to make parking logistics as efficient
+										as possible. Our streamlined procedures guarantee prompt and safe car handling,
+										freeing up your visitors or clients to concentrate on what really counts.</p>
+								</div>
+							</div>
+
+							<div class="feature-box fbox-plain topmargin">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-puzzle-piece"></i></a>
+								</div>
+								<div class="fbox-content">
+									<h3>Tailored Solutions</h3>
+									<p> Every occasion or company has different needs, and we are aware of this.
+										Convenience and flexibility are seamlessly combined with Zeffo Valet Parking
+										Service's customisable solutions, which are tailored to your individual needs.
+									</p>
+								</div>
+							</div>
+
+							<div class="feature-box fbox-plain topmargin">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-shield-alt"></i></a>
+								</div>
+								<div class="fbox-content">
+									<h3>Reliability</h3>
+									<p>The foundation of our service is trust. Zeffo will manage your parking needs with
+										precision, dependability, and a commitment to exceeding expectations.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div> <!-- Features Area End -->
+
+				<!-- Revolution Slider
+				============================================= -->
+				<div class="about-us"
+					style="height:500px; background: #FFF url('demos/car/images/about-us.png') center 70% no-repeat; background-size: auto; padding: 100px 0 10px">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-lg-6">
+								<h2 class="text-white">About Us</h2>
+								<p class="text-white">You've come to the right place for top-notch driving services in
+									Dubai Zeffo Driver Velet Parking Service. To meet the needs of both locals and
+									visitors, we take great satisfaction in providing excellent, professional drivers.
+									You will be able to easily and confidently traverse Dubai's bustling streets thanks
+									to our dedication to providing a flawless and safe travel experience. For business
+									or pleasure, you can rely on Zeffo Driver velet parking service to deliver the best
+									drivers, guaranteeing outstanding comfort, dependability, and flawless service all
+									along the way. Come enjoy, right in the middle of Dubai, the highest level of driver
+									excellence.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- 360 degree car
+				============================================= -->
+				<div id="section2" class=" section dark mb-0 clearfix"
+					style="background: #FFF url('demos/car/images/1.jpg') right bottom no-repeat; background-size: cover; padding: 80px 0 40px">
+					<div class="container-fluid clearfix" style="position: relative; z-index: 2;">
+						<div class="row clearfix">
+							<div class="col-lg-8">
+								<div class="heading-block border-0 mb-0 center">
+									<h3 style="font-size: 32px; font-weight: 700;">360 Degree Drag
+									</h3>
+								</div>
+								<!-- 360 degree Car Content -->
+								<div class="threesixty 360-car">
+									<div class="spinner">
+										<span>0%</span>
+									</div>
+									<ol class="threesixty_images"></ol>
+								</div>
+
+							</div>
+							<div class="col-lg-4">
+								<div class="row clearfix">
+									<div class="col-lg-10">
+										<div class="heading-block car-360 topmargin-sm border-0">
+											<h3
+												style="text-transform: none; font-size: 36px; letter-spacing: 0px; font-weight: 700;">
+												About Zeffo Driver Velet Parking Services</h3>
+											<span>Zeffo Valet Parking Service redefines convenience by providing
+												high-end valet parking options that are customised to your
+												needs.distinct requirements.Our knowledgeable staff, who are based in
+												the energetic city of Dubai, is committed to giving both people and
+												businesses a smooth and elegant parking experience.
+											</span>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video-wrap d-block d-md-block d-lg-none" style="z-index: 0;">
+						<div class="video-overlay" style="background: rgba(255,255,255,0.8);"></div>
+					</div>
+				</div>
+				<div class="section m-0 overflow-hidden">
+					<div class="heading-block mb-0 center">
+						<h2>Video Gallery</h2>
+					</div>
+				</div>
+				<div class="dark section p-0 m-0 overflow-hidden" style="height: 740px">
+					<div class="row h-100 align-items-stretch">
+						<!-- Video 1 -->
+						<div class="col-md-6 col-12 p-0 dark videoplay-on-hover">
+							<a href="">
+								<div class="vertical-middle center">
+									<div class="before-heading text-uppercase ls1"
+										style="font-size: 14px; font-style: normal; color: #EEE">Safe Ride
+									</div>
+									<h2 class="mb-0 ls1">Traine Person</h2>
+								</div>
+								<div class="video-wrap">
+									<video id="slide-video-1" poster="demos/car/images/videos/1.jpg" preload="auto" loop
+										muted>
+										<source src='demos/car/images/videos/1.mp4' type='video/mp4' />
+									</video>
+									<div class="video-overlay" style="background: rgba(0,0,0,0.3);"></div>
+								</div>
+							</a>
+						</div>
+						<!-- Video 2 -->
+						<div class="col-md-6 col-12 p-0 dark videoplay-on-hover">
+							<a href="">
+								<div class="vertical-middle center">
+									<div class="before-heading text-uppercase ls1"
+										style="font-size: 14px; font-style: normal; color: #EEE">Trust On
+									</div>
+									<h2 class="mb-0 ls1">Zeffo Driver</h2>
+								</div>
+								<div class="video-wrap">
+									<video id="slide-video-2" poster="demos/car/images/videos/2.jpg" preload="auto" loop
+										muted>
+										<source src='demos/car/images/videos/2.mp4' type='video/mp4' />
+									</video>
+									<div class="video-overlay" style="background: rgba(0,0,0,0.4);"></div>
+								</div>
+							</a>
+						</div>
+						<!-- Video 3 -->
+						<div class="col-md-6 col-12 p-0 dark videoplay-on-hover">
+							<a href="">
+								<div class="vertical-middle center">
+									<div class="before-heading uppercase ls1"
+										style="font-size: 14px; font-style: normal; color: #EEE">professionalism
+									</div>
+									<h2 class="mb-0 ls1">With Highly Skills</h2>
+								</div>
+								<div class="video-wrap">
+									<video id="slide-video-3" poster="demos/car/images/videos/3.jpg" preload="auto" loop
+										muted>
+										<source src='demos/car/images/videos/3.mp4' type='video/mp4' />
+									</video>
+									<div class="video-overlay" style="background: rgba(0,0,0,0.4);"></div>
+								</div>
+							</a>
+						</div>
+						<!-- Video 4 -->
+						<div class="col-md-6 col-12 p-0 dark videoplay-on-hover">
+							<a href="">
+								<div class="vertical-middle center">
+									<div class="before-heading uppercase ls1"
+										style="font-size: 14px; font-style: normal; color: #EEE">Safe and Secure
+									</div>
+									<h2 class="mb-0 ls1">On Time</h2>
+								</div>
+								<div class="video-wrap">
+									<video id="slide-video-4" poster="demos/car/images/videos/4.jpg" preload="auto" loop
+										muted>
+										<source src='demos/car/images/videos/4.mp4' type='video/mp4' />
+									</video>
+									<div class="video-overlay" style="background: rgba(0,0,0,0.3);"></div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div> <!-- Video Gallery end -->
+
+				<!-- Counter Area
+				============================================= -->
+				<div class="section counter-section m-0 dark clearfix">
+					<div class="container clearfix align-items-stretch">
+						<div class="row">
+							<div class="col-lg-3 col-md-6 center">
+								<div>
+									<i class="i-plain i-large mx-auto color icon-user"></i>
+									<div class="counter"><span data-from="10" data-to="600" data-refresh-interval="50"
+											data-speed="800"></span></div>
+									<h5>Happy Customers</h5>
+								</div>
+							</div>
+
+							<div class="col-lg-3 col-md-6 center">
+								<div>
+									<i class="i-plain i-large mx-auto color icon-user-tie"></i>
+									<div class="counter"><span data-from="10" data-to="200" data-refresh-interval="50"
+											data-speed="50"></span></div>
+									<h5>Total Staff</h5>
+								</div>
+							</div>
+
+							<div class="col-lg-3 col-md-6 center">
+								<div>
+									<i class="i-plain i-large mx-auto color icon-store-alt"></i>
+									<div class="counter"><span data-from="10" data-to="10" data-refresh-interval="85"
+											data-speed="10"></span></div>
+									<h5>Showrooms</h5>
+								</div>
+							</div>
+
+							<div class="col-lg-3 col-md-6 center">
+								<div>
+									<i class="i-plain i-large mx-auto color icon-star"></i>
+									<div class="counter"><span data-from="10" data-to="500" data-refresh-interval="30"
+											data-speed="900"></span></div>
+									<h5>Happy Reviews</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- Counter Area end -->
+
+				<!-- Featured Section
+				============================================= -->
+				<div class="section m-0 clearfix"
+					style="background: #FFF url('demos/car/images/features/section-bg.jpg') left bottom no-repeat; background-size: cover; padding: 140px 0">
+					<div class="container clearfix">
+						<div class="row clearfix">
+							<div class="col-lg-6 col-md-9">
+								<div class="heading-block">
+									<h3 style="font-size: 58px; line-height: 56px; letter-spacing: -2px">WHY
+										PERFECT
+										DRIVE</h3>
+								</div>
+								<p>In the UAE, Perfect Drive is the leading supplier of personal driver and safe driver
+									services. Our expertise lies in making sure your arrival at any event is seamless
+									and unobtrusive, so you can blend in without taking attention away from your valued
+									guests. With a more than five-year track record, we have been the reliable option
+									for a wide range of clients, including well-known figures, corporate executives, and
+									celebrities. Our dedication to providing specialised, safe driving services ensures
+									your privacy and peace of mind at all times.</p>
+
+								<div class="row topmargin clearfix">
+									<div class="col-md-6">
+										<div class="feature-box fbox-plain media-box">
+											<div class="fbox-icon" style="position: relative;">
+												<a href="#"><i class="icon-eye-slash"></i></a>
+											</div>
+											<div class="fbox-content" style="margin-top: 25px">
+												<h3>Discreet and Seamless Service.</h3>
+												<p class="font-weight-light" style="color: #666;">High-profile guests
+													can easily blend into events without any disturbances or unwanted
+													attention thanks to Perfect Drive's expertise in discrete and
+													seamless event arrivals.</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="feature-box fbox-plain media-box">
+											<div class="fbox-icon" style="position: relative;">
+												<a href="#"><i class="icon-graduation-cap"></i></a>
+											</div>
+											<div class="fbox-content" style="margin-top: 25px">
+												<h3>Extensive Experience
+													<br> Trusted Reputation.
+												</h3>
+												<p class="font-weight-light" style="color: #666;">
+													Since its founding more than five years ago, Perfect Drive has
+													gained the trust of a wide range of clients, including business
+													executives and celebrities. Because we provide individualised driver
+													services that put safety, discretion, and professionalism first, we
+													are the go-to company for dependable transportation options in the
+													UAE.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div> <!-- Featured end -->
+
+				<!-- Buy And Sell Section
+				============================================= -->
+				<div class="section m-0 p-0 clearfix">
+					<div class="row align-items-stretch clearfix">
+						<!-- Half Section 1 -->
+						<div class="col-lg-6 dark bg-color overlay-custom"
+							style="background: url('demos/car/images/safe.png') center center no-repeat; background-size: cover; ">
+							<div class="col-padding clearfix">
+								<i class="i-plain i-xlarge icon-car-care inline-block" style="margin-bottom: 20px;"></i>
+								<div class="heading-block border-0" style="margin-bottom: 20px;">
+									<h3>Seeking a Safe Driver?</h3>
+								</div>
+								<p>No need to search any farther! We guarantee your comfort and safety while driving
+									with our dependable and skilled driver services. Check out our reliable options for
+									a safe travel.
+								</p>
+								<!-- <a href="#" class="button button-rounded button-white button-light m-0">Know More</a> -->
+							</div>
+						</div>
+						<!-- Half Section 2 -->
+						<div class="col-lg-6 clearfix bg-color "
+							style="background: url('demos/car/images/6.png') center center no-repeat; background-size: cover;">
+							<div class="col-padding clearfix " style="color: #EEE;">
+								<i class="i-plain i-xlarge icon-car inline-block" style="margin-bottom: 20px;"></i>
+								<div class="heading-block border-0" style="margin-bottom: 20px;">
+									<h3 style="color: #EEE;">Easy Booking Process</h3>
+								</div>
+								<p>With the help of our easy-to-use booking system, you can arrange for your driver
+									hassle-free, whenever and wherever you need them.Please feel free to modify these
+									points to suit your unique offerings and brand principles!</p>
+								<a href="tel:+971528586913"
+									class="button button-large button-dark button-black button-rounded m-0">Book
+									Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Before Footer Section
+				============================================= -->
+				<div class="section m-0 clearfix position-relative"
+					style="background: #FFF url('demos/car/images/footer.png') center bottom no-repeat; background-size: cover; height: 770px">
+					<div class="mx-auto dark center clearfix position-absolute"
+						style="max-width: 570px; top: 40%; left: 0; right: 0; margin: 0 auto;">
+						<div class="heading-block dark bottommargin-sm border-0">
+							<h2 class="nott font-weight-medium">"Fuel Your Adventure"</h2>
+							<p style="color: #fff; margin-top: 10px">Our area of expertise at Zeffo Driver velete
+								parking service is offering customised driving services in Dubai. Our carefully chosen
+								group of knowledgeable drivers guarantees trips that are secure, cosy, and customised to
+								meet your needs. We are committed to creating seamless, thrilling experiences that
+								ignite your sense of adventure and push you towards new horizons, whether it be
+								navigating busy streets or discovering hidden gems.</p>
+						</div>
+						<a href="https://wa.me/971528586913?text=Hello%20there!%20I%20would%20like%20to%20get%20in%20touch%20with%20you."
+							class="uppercase font-weight-bold ls2"
+							style="color: #FFF; font-size: 12px; border-bottom: 1px solid #FFF">Ride
+							with Us
+						</a>
+						&rarr;
+					</div>
+				</div>
+			</div>
+		</section><!-- #content end -->
+		<!-- Footer
+		============================================= -->
+		<div id="section3"></div>
+		<footer id="footer" class="dark border-0" style="background-color: #000;">
+			<div class="container-fluid px-5 clearfix">
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row col-mb-50 justify-content-between">
+						<div class="col-lg-7">
+
+							<div class="row col-mb-30">
+								<div class="col-6 col-lg-3">
+									<div class="widget widget_links widget-li-noicon">
+										<h4>Contacts</h4>
+										<ul>
+											<li><a href="tel:+971528586913">+971528586913</a></li>
+											<li><a
+													href="https://wa.me/971528586913?text=Hello%20there!%20I%20would%20like%20to%20get%20in%20touch%20with%20you.">WhatsApp</a>
+											</li>
+											<li><a href="#">UAE</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-6 col-lg-3">
+									<div class="widget widget_links widget-li-noicon">
+										<h4>Services</h4>
+										<ul>
+											<li><a href="#">Event Valet Parking</a></li>
+											<li><a href="#">Business Valet Solutions</a></li>
+											<li><a href="#">Residential Valet</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-6 col-lg-3">
+									<div class="widget widget_links widget-li-noicon">
+										<h4>Soical Links</h4>
+										<ul>
+											<li><a href="#">Facebook</a></li>
+											<li><a href="#">Instagram</a></li>
+											<li><a href="#">X</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-lg-5 text-center text-lg-right">
+							<img src="demos/car/images/3.png" alt="Image" height="70">
+							<br>
+							<div style="color: #444">
+								<span class="text-white">&copy; Zeffo Driver Velet Parking Service. All Rights
+									Reserved.</span>
+								<div class="clear"></div>
+								<p class="text-white" style="margin-top: 10px;">Effectively resurrect opportunities in
+									line with industry
+									norms, advising privately cooperation and fluid idea exchange</p>
+							</div>
+						</div>
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+			</div>
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- Contact Button
+	============================================= -->
+	<!-- <div id="contact-me" class="icon-line-mail side-panel-trigger bg-color"></div> -->
+	<div id="contact-me" class="" style="margin: 0px 5px 10px 0px;">
+		<a size="50" href="https://wa.me/971528586913?text=Hello%20there!%20I%20would%20like%20to%20get%20in%20touch%20with%20you.
+		" target="_blank" color="#4dc247" id="" direction="column" order="whatsapp" class="q8c6tt-0 hXaMVG">
+			<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+				style="width: 100%; height: 100%; fill: rgb(255, 255, 255); stroke: none;">
+				<path
+					d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z">
+				</path>
+			</svg>
+		</a>
+	</div>
+	<style>
+		.hXaMVG {
+			flex-shrink: 0;
+			opacity: 1;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			display: block;
+			order: 1;
+			padding: 5px;
+			box-sizing: border-box;
+			cursor: pointer;
+			overflow: hidden;
+			box-shadow: rgba(136, 136, 136, 0.4) 0px 1px 7px;
+			transition: all 0.5s ease 0s;
+			position: relative;
+			z-index: 200;
+			text-decoration: none !important;
+			background-color: rgb(77, 194, 71) !important;
+		}
+	</style>
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+	<script src="demos/car/js/360rotator.js"></script>
+
+	<!-- Bootstrap Select Plugin -->
+	<script src="js/components/bs-select.js"></script>
+
+	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
+	<script src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+	<script src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+	<script src="include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+
+		var $ = jQuery.noConflict();
+
+		//Car Appear In View
+		function isScrolledIntoView(elem) {
+			var docViewTop = $(window).scrollTop();
+			var docViewBottom = docViewTop + $(window).height();
+
+			var elemTop = $(elem).offset().top + 180;
+			var elemBottom = elemTop + $(elem).height() - 500;
+
+			return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+		}
+
+		$(window).scroll(function () {
+			$('.running-car').each(function () {
+				if (isScrolledIntoView(this) === true) {
+					$(this).addClass('in-view');
+				} else {
+					$(this).removeClass('in-view');
+				}
+			});
+		});
+
+		//threesixty degree
+		window.onload = init;
+		var car;
+		function init() {
+
+			car = $('.360-car').ThreeSixty({
+				totalFrames: 52, // Total no. of image you have for 360 slider
+				endFrame: 52, // end frame for the auto spin animation
+				currentFrame: 3, // This the start frame for auto spin
+				imgList: '.threesixty_images', // selector for image list
+				progress: '.spinner', // selector to show the loading progress
+				imagePath: 'demos/car/images/360degree-cars/', // path of the image assets
+				filePrefix: '', // file prefix if any
+				ext: '.png', // extention for the assets
+				height: 887,
+				width: 500,
+				navigation: true,
+				responsive: true,
+			});
+		};
+
+		// Rev Slider
+		var tpj = jQuery;
+		var revapi424;
+		tpj(document).ready(function () {
+			if (tpj("#rev_slider_424_1").revolution == undefined) {
+				revslider_showDoubleJqueryError("#rev_slider_424_1");
+			} else {
+				revapi424 = tpj("#rev_slider_424_1").show().revolution({
+					sliderType: "carousel",
+					jsFileLocation: "include/rs-plugin/js/",
+					sliderLayout: "auto",
+					dottedOverlay: "none",
+					delay: 7000,
+					navigation: {
+						keyboardNavigation: "off",
+						keyboard_direction: "horizontal",
+						mouseScrollNavigation: "off",
+						mouseScrollReverse: "default",
+						onHoverStop: "off",
+						touch: {
+							touchenabled: "on",
+							swipe_threshold: 75,
+							swipe_min_touches: 1,
+							swipe_direction: "horizontal",
+							drag_block_vertical: false
+						}
+						,
+						arrows: {
+							style: "uranus",
+							enable: false,
+							hide_onmobile: false,
+							hide_onleave: true,
+							hide_delay: 200,
+							hide_delay_mobile: 1200,
+							tmp: '',
+							left: {
+								h_align: "left",
+								v_align: "center",
+								h_offset: -10,
+								v_offset: 0
+							},
+							right: {
+								h_align: "right",
+								v_align: "center",
+								h_offset: -10,
+								v_offset: 0
+							}
+						},
+						carousel: {
+							maxRotation: 65,
+							vary_rotation: "on",
+							minScale: 55,
+							vary_scale: "on",
+							horizontal_align: "center",
+							vertical_align: "center",
+							fadeout: "on",
+							vary_fade: "on",
+							maxVisibleItems: 5,
+							infinity: "off",
+							space: 0,
+							stretch: "on"
+						}
+						,
+						tabs: {
+							style: "ares",
+							enable: true,
+							width: 270,
+							height: 80,
+							min_width: 270,
+							wrapper_padding: 10,
+							wrapper_color: "transparent",
+							wrapper_opacity: "0.5",
+							tmp: '<div class="tp-tab-content">  <span class="tp-tab-date">{{param1}}</span>  <span class="tp-tab-title">{{title}}</span></div><div class="tp-tab-image"></div>',
+							visibleAmount: 7,
+							hide_onmobile: false,
+							hide_under: 420,
+							hide_onleave: false,
+							hide_delay_mobile: 1200,
+							hide_delay: 200,
+							direction: "horizontal",
+							span: true,
+							position: "outer-bottom",
+							space: 20,
+							h_align: "left",
+							v_align: "bottom",
+							h_offset: 0,
+							v_offset: 0
+						}
+					},
+					visibilityLevels: [1240, 1024, 778, 480],
+					gridwidth: [1240, 992, 768, 420],
+					gridheight: [600, 500, 960, 720],
+					lazyType: "single",
+					shadow: 0,
+					spinner: "off",
+					stopLoop: "off",
+					stopAfterLoops: 0,
+					stopAtSlide: 1,
+					shuffle: "off",
+					autoHeight: "off",
+					hideThumbsOnMobile: "off",
+					hideSliderAtLimit: 0,
+					hideCaptionAtLimit: 0,
+					hideAllCaptionAtLilmit: 0,
+					debugMode: false,
+					fallbacks: {
+						simplifyAll: "off",
+						nextSlideOnWindowFocus: "off",
+						disableFocusListener: false,
+					}
+				});
+			}
+		});	/*ready*/
+
+		// Video on play on hover
+		jQuery(document).ready(function ($) {
+			$('.videoplay-on-hover').hover(function () {
+				if ($(this).find('video').length > 0) {
+					$(this).find('video').get(0).play();
+				}
+			}, function () {
+				if ($(this).find('video').length > 0) {
+					$(this).find('video').get(0).pause();
+				}
+			});
+		});
+	</script>
+
+
+</body>
+
+</html>

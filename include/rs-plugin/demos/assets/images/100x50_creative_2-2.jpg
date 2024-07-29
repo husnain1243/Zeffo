@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Stockholm-icons / Cooking / Sieve</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Stockholm-icons-/-Cooking-/-Sieve" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <path d="M8.61257411,18 L14.6125741,18 L15.1738315,19.6837722 C15.3484793,20.2077156 15.0653193,20.7740355 14.541376,20.9486833 C14.4394095,20.9826721 14.3326303,21 14.2251482,21 L9,21 C8.44771525,21 8,20.5522847 8,20 C8,19.8925179 8.01732788,19.7857387 8.0513167,19.6837722 L8.61257411,18 Z" id="Rectangle" fill="#000000" opacity="0.3"></path>
+        <path d="M21,9 L21,10 C21,14.9705627 16.9705627,19 12,19

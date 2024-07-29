@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Stockholm-icons / Devices / Keyboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Stockholm-icons-/-Devices-/-Keyboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <path d="M11.9486833,8.31622777 L10.0513167,7.68377223 C10.8160243,5.38964935 12.0426772,3.95855428 13.7574644,3.5298575 C14.650287,3.30665184 16,1.86951059 16,1 L18,1 C18,2.79715607 16.0163797,5.02668149 14.2425356,5.4701425 C13.2906561,5.70811238 12.517309,6.61035065 11.9486833,8.31622777 Z" id="Path-21" fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
+        <path d="M3,7 L21,7 C22.1045695,7 23,7.8954305 23,9 L23,19 C23,20.1045695 22.1045695,21 21,21 L3,21 C1.8954305,21 1,20.1045695 1,19 L1,9 C1,7.895430
